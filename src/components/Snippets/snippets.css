@@ -1,0 +1,34 @@
+/* CodeSnippetDemo.css */
+.code-snippet-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .code-container {
+    background-color: #1f2229;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    color: rgb(34, 255, 0);
+  }
+  
+  pre {
+    margin: 0;
+  }
+  
+  .code-snippet-demo button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .code-snippet-demo button:active {
+    background-color: #2980b9;
+  }
+  
